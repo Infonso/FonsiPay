@@ -14,6 +14,7 @@ Este proyecto implementa **arquitectura hexagonal**, dividiendo claramente las r
 - **Entradas/Salidas**: Archivos públicos (`send_notification.php`, `receive_notification.php`, `index.php`) que actúan como interfaces de usuario o de integración.
 
 ## 📂 Estructura del proyecto
+
 ![Carpetas](estructura_carpetas.png)
 
 
