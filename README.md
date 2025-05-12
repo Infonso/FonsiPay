@@ -14,32 +14,7 @@ Este proyecto implementa **arquitectura hexagonal**, dividiendo claramente las r
 - **Entradas/Salidas**: Archivos públicos (`send_notification.php`, `receive_notification.php`, `index.php`) que actúan como interfaces de usuario o de integración.
 
 ## 📂 Estructura del proyecto
-.
-├── public/
-│ ├── index.php
-│ ├── send_notification.php
-│ └── receive_notification.php
-├── src/
-│ ├── Application/
-│ │ ├── Port/
-│ │ │ └── NotificationSenderInterface.php
-│ │ └── UseCase/
-│ │ ├── ProcessPaymentUseCase.php
-│ │ └── SenderPaymentNotificationUseCase.php
-│ ├── Domain/
-│ │ └── Entity/
-│ │   └── Payment.php
-│ └── Infraestructure/
-│ └── Http/
-│ └── GuzzleNotificationSender.php
-├── templates/
-│ ├── header.php
-│ └── footer.php
-├── tests/
-├── vendor/
-├── composer.json
-├── composer.lock
-└── README.md
+![Carpetas](estructura_carpetas.png)
 
 
 ## 🔄 Flujo del proceso de pago
